@@ -56,7 +56,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Professional Background</h2>
           
           <p className="text-gray-700 mb-6">
-            Derek's career has been defined by his ability to identify complex financial opportunities 
+            Derek&apos;s career has been defined by his ability to identify complex financial opportunities 
             that others overlook. His expertise spans multiple domains, from traditional trade finance 
             to cutting-edge cybersecurity frameworks. This multidisciplinary approach has enabled him 
             to structure innovative investment vehicles that capture value in niche markets.
@@ -72,7 +72,7 @@ export default function About() {
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Abraxas Innovations</h2>
           
           <p className="text-gray-700 mb-6">
-            <strong>Abraxas Innovations</strong> represents Derek's vision for modern investment management. 
+            <strong>Abraxas Innovations</strong> represents Derek&apos;s vision for modern investment management. 
             The firm specializes in non-custodial asset management approaches, leveraging technology and 
             innovative structures to provide investors with exposure to previously inaccessible opportunities.
           </p>
