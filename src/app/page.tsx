@@ -39,7 +39,7 @@ export default function Home() {
         <div className="text-center">
           <div className="mx-auto h-32 w-32 relative mb-8">
             <Image
-              src="/media/derek-pethel.jpg"
+              src="/media/derek-pethel.png"
               alt="Derek Pethel, founder of Abraxas Innovations"
               fill
               className="rounded-full object-cover"

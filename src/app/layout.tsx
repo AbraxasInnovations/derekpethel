@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: "Founder of Abraxas Innovations, specializing in SPV structures and Section 301 tariff refunds.",
     images: [
       {
-        url: "https://derekpethel.com/media/derek-pethel-og.jpg",
+        url: "https://derekpethel.com/media/derek-pethel.png",
         width: 1200,
         height: 630,
         alt: "Derek Pethel, founder of Abraxas Innovations",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Derek Pethel | Founder, Abraxas Innovations",
     description: "Founder of Abraxas Innovations, specializing in SPV structures and Section 301 tariff refunds.",
-    images: ["https://derekpethel.com/media/derek-pethel-og.jpg"],
+    images: ["https://derekpethel.com/media/derek-pethel.png"],
   },
   alternates: {
     canonical: "https://derekpethel.com",
@@ -78,7 +78,7 @@ export default function RootLayout({
       "https://usfinancemoves.com/",
       "https://abraxasinnovations.com/"
     ],
-    "image": "https://derekpethel.com/media/derek-pethel.jpg",
+    "image": "https://derekpethel.com/media/derek-pethel.png",
     "knowsAbout": [
       "Trade finance", "Section 301 tariff refunds", "SPVs",
       "Non-custodial asset management", "Cybersecurity"
