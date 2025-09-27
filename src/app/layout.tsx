@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -73,15 +68,18 @@ export default function RootLayout({
     },
     "url": "https://derekpethel.com/",
     "sameAs": [
+      "https://x.com/TheDerekPethel",
       "https://www.linkedin.com/in/derekpethel",
-      "https://x.com/derekpethel",
+      "https://derekpethel.medium.com",
+      "https://derekpethel.substack.com",
       "https://usfinancemoves.com/",
-      "https://abraxasinnovations.com/"
+      "https://abraxasinnovations.com/",
+      "https://abxinnovate.com/"
     ],
     "image": "https://derekpethel.com/media/derek-pethel.png",
     "knowsAbout": [
-      "Trade finance", "Section 301 tariff refunds", "SPVs",
-      "Non-custodial asset management", "Cybersecurity"
+      "M&A", "Private Equity", "LBOs", "Section 301 tariff refunds",
+      "Non-custodial asset management", "Cybersecurity", "Trade finance", "SPVs"
     ]
   };
 
@@ -94,7 +92,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} antialiased bg-black text-white`}
       >
         {children}
       </body>

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Press Coverage | Derek Pethel & Abraxas Innovations",
@@ -12,35 +13,7 @@ export const metadata: Metadata = {
 export default function Press() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-xl font-bold text-gray-900">
-                Derek Pethel
-              </Link>
-            </div>
-            <div className="flex items-center space-x-8">
-              <Link href="/about" className="text-gray-600 hover:text-gray-900">
-                About
-              </Link>
-              <Link href="/press" className="text-blue-600 font-medium">
-                Press
-              </Link>
-              <Link href="/writing" className="text-gray-600 hover:text-gray-900">
-                Writing
-              </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-gray-900">
-                Projects
-              </Link>
-              <Link href="/contact" className="text-gray-600 hover:text-gray-900">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header activePage="/press" />
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
