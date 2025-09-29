@@ -59,12 +59,12 @@ export default function Home() {
 
         {/* Expertise Section */}
         <div className="mt-32">
-          <h2 className="text-4xl font-bold text-white text-center mb-16 font-display">
-            Areas of Expertise
+          <h2 className="text-4xl font-bold text-white text-center mb-16 font-crimson">
+            At a Glance
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 Trade Finance
               </h3>
               <p className="text-gray-300 leading-relaxed">
@@ -72,7 +72,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 Section 301 Refunds
               </h3>
               <p className="text-gray-300 leading-relaxed">
@@ -80,7 +80,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 SPV Structures
               </h3>
               <p className="text-gray-300 leading-relaxed">
@@ -88,7 +88,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 Non-Custodial Asset Management
               </h3>
               <p className="text-gray-300 leading-relaxed">
@@ -96,7 +96,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 Cybersecurity
               </h3>
               <p className="text-gray-300 leading-relaxed">
@@ -104,7 +104,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-8 bg-emerald-card rounded-xl border border-gray-600 hover:border-gray-500 transition-all duration-300">
-              <h3 className="text-xl font-semibold text-white mb-4 font-display">
+              <h3 className="text-xl font-semibold text-white mb-4 font-crimson">
                 Litigation Finance
               </h3>
               <p className="text-gray-300 leading-relaxed">

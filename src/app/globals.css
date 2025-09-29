@@ -75,6 +75,10 @@ body {
   font-style: normal;
 }
 
+.font-crimson {
+  font-family: 'Crimson Text', serif;
+}
+
 /* Emerald background utilities */
 .bg-emerald-card {
   background-image: url('/media/emeraldbackground.jpg');
