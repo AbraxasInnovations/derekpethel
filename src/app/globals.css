@@ -11,13 +11,22 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-inter);
+  --font-sans: "Phonic", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --font-display: "Phonic", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --font-name: "Martina Plantijn", serif;
 }
 
 body {
   background: var(--background);
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('/media/emeraldbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--foreground);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: "Phonic", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -48,4 +57,46 @@ body {
 /* Smooth transitions */
 * {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Typography utilities */
+.font-display {
+  font-family: "Phonic", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-style: normal;
+}
+
+.font-name {
+  font-family: "Michroma", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-sans {
+  font-family: "Phonic", Helvetica, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-style: normal;
+}
+
+/* Emerald background utilities */
+.bg-emerald-card {
+  background-image: url('/media/emeraldbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-emerald-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: inherit;
+  z-index: 0;
+}
+
+.bg-emerald-card > * {
+  position: relative;
+  z-index: 1;
 }
