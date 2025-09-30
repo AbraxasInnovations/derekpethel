@@ -25,32 +25,20 @@ export default function Home() {
           </h1>
           
           <p className="mt-8 text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Founder, <span className="text-white font-semibold">Abraxas Innovations</span> — 
-            Specializing in SPV structures, Section 301 tariff refunds, and non-custodial asset management.
+            Derek Pethel is the founder of <span className="text-white font-semibold">Abraxas Innovations</span>, 
+            specializing in SPV structures, Section 301 tariff refunds, and non-custodial asset management.
           </p>
           
-          <div className="mt-16 flex flex-col sm:flex-row gap-8 justify-center items-center">
+          <div className="mt-16 flex justify-center items-center">
             <Link
               href="https://abraxasinnovations.com"
-              className="inline-flex items-center justify-center px-4 py-3 border border-white text-base font-medium rounded-lg text-black bg-white hover:bg-gray-100 transition-all duration-300 w-48 h-16"
+              className="inline-flex items-center justify-center px-6 py-4 border border-white text-base font-medium rounded-lg text-black bg-white hover:bg-gray-100 transition-all duration-300 w-64 h-20"
             >
               <Image
                 src="/media/abraxasabx.png"
                 alt="Abraxas Innovations"
-                width={160}
-                height={50}
-                className="object-contain"
-              />
-            </Link>
-            <Link
-              href="https://usfinancemoves.com"
-              className="inline-flex items-center justify-center px-4 py-3 border border-white text-base font-medium rounded-lg text-black bg-white hover:bg-gray-100 transition-all duration-300 w-48 h-16"
-            >
-              <Image
-                src="/media/usfmlogoreal.png"
-                alt="US Finance Moves"
-                width={160}
-                height={50}
+                width={200}
+                height={60}
                 className="object-contain"
               />
             </Link>
